@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 
-constexpr size_t PHYSICAL_MEMORY_SIZE = 1 * 1024 * 1024 * 1024; // 1GB
-constexpr size_t VIRTUAL_MEMORY_SIZE = 4 * 1024 * 1024 * 1024; // 4GB
-constexpr size_t PAGE_SIZE = 4906;
+const int PHYSICAL_MEMORY_SIZE = 1 * 1024 * 1024 * 1024; // 1GB
+const long VIRTUAL_MEMORY_SIZE = 4 * 1024 * 1024 * 1024; // 4GB
+const int PAGE_SIZE = 4906;
 
 struct Process {
     size_t memoryRequirement;
